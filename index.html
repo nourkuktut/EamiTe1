@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmailTemplate1</title>
+    <!-- Bootstrap RTL CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css"
+    />
+
+    <style>
+      /* Define custom font */
+      @font-face {
+        font-family: "JannaLT";
+        src: url("../Fonts/ArbFONTS-Janna-LT-Regular.ttf") format("truetype");
+      }
+      body {
+        background-color: #f6f6f6;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .main-container {
+        max-width: 600px;
+        margin: auto;
+      }
+      .header {
+        background-color: #ec132f;
+        color: white;
+      }
+      .content {
+        background-color: #ffffff;
+      }
+      .footer {
+        background-color: #e9eaea;
+        color: #666666;
+      }
+      .btn-primary {
+        background-color: #fdb714;
+        border-color: #fdb714;
+      }
+      .btn-primary:hover {
+        background-color: #fdb714;
+        border-color: #fdb714;
+      }
+
+      .footer p {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid py-4">
+      <div class="main-container shadow-md">
+        <!-- Header: -->
+        <div class="row">
+          <div class="col-12 header text-center py-4">
+            <img
+              src="./imgs/logo1.png"
+              alt="شعار الشركة"
+              class="img-fluid mb-3"
+              style="max-width: 200px"
+            />
+            <h1 class="fs-1">شركة التقنيات الحديثة</h1>
+          </div>
+        </div>
+
+        <!-- المحتوى الرئيسي -->
+        <div class="row">
+          <div class="col-12 content p-4">
+            <h2 class="fs-4 mb-3">مرحبًا [اسم العميل]،</h2>
+            <p>
+              نحن سعداء بالتواصل معك. هذا القالب مصمم ليكون مرنًا ويمكن استخدامه
+              لمختلف أنواع الرسائل.
+            </p>
+            <p>
+              هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد
+              هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو
+              العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها
+              التطبيق. إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص
+              العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي
+              أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه
+            </p>
+
+            <!-- قسم المميزات أو النقاط الرئيسية -->
+            <div class="my-4">
+              <h3 class="fs-5 mb-3">النقاط الرئيسية:</h3>
+              <ul>
+                <li>نقطة رئيسية 1</li>
+                <li>نقطة رئيسية 2</li>
+                <li>نقطة رئيسية 3</li>
+              </ul>
+            </div>
+
+            <!--invitation -->
+            <div class="text-center my-4">
+              <a href="#" class="btn btn-warning btn-lg">اتخذ إجراءً الآن</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- معلومات إضافية أو اقتباس -->
+        <!-- <div class="row">
+          <div class="col-12 content p-4">
+            <blockquote class="border-start border-primary border-4 ps-3">
+              <p class="fst-italic">" إضافة اقتباس أو معلومة مهمة ."</p>
+            </blockquote>
+          </div>
+        </div> -->
+
+        <!-- footer -->
+        <div class="row">
+          <div class="col-12 footer p-4">
+            <div class="footer text-center">
+              <p class="small mb-2">
+                &copy; 2024 شركة التقنيات الحديثة. جميع الحقوق محفوظة.
+              </p>
+              <p class="small mb-2">
+                <a
+                  href="https://bill.ps/"
+                  class="text-decoration-none text-muted"
+                  >الموقع الإلكتروني</a
+                >
+                |
+                <a
+                  href="mailto:support@mtcgaza.com"
+                  class="text-decoration-none text-muted"
+                  >تواصل معنا</a
+                >
+                |
+                <a href="#" class="text-decoration-none text-muted"
+                  >سياسة الخصوصية</a
+                >
+              </p>
+              <p class="small mb-0">
+                <a href="#" class="text-decoration-none text-muted"
+                  >إلغاء الاشتراك</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
